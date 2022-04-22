@@ -15,7 +15,7 @@ public class firsttemplate extends AppCompatActivity {
         setContentView(R.layout.activity_firsttemplate);
 
         String name = getIntent().getStringExtra("name");
-        String Fathername = getIntent().getStringExtra("fatherName");
+        String fatherName = getIntent().getStringExtra("fatherName");
         String surname = getIntent().getStringExtra("surname");
         String dob = getIntent().getStringExtra("DOB");
         String gmail = getIntent().getStringExtra("G-mail");
@@ -41,6 +41,6 @@ public class firsttemplate extends AppCompatActivity {
         father_surname = findViewById(R.id.fnsn);
 
         na.setText(name);
-        father_surname.setText(Fathername + surname);
+        father_surname.setText(fatherName + surname);
     }
 }

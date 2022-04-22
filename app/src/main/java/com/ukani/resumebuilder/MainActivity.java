@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this,Education.class);
                 intent.putExtra("name",n);
-                intent.putExtra("father name",fn);
+                intent.putExtra("fathername",fn);
                 intent.putExtra("surname",sn);
                 intent.putExtra("DOB",birth);
                 intent.putExtra("G-mail",mail);

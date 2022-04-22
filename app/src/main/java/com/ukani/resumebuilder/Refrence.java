@@ -20,7 +20,7 @@ public class Refrence extends AppCompatActivity {
         setContentView(R.layout.activity_refrence);
 
         String name = getIntent().getStringExtra("name");
-        String fathername = getIntent().getStringExtra("father name");
+        String fathername = getIntent().getStringExtra("fathername");
         String surname = getIntent().getStringExtra("surname");
         String dob = getIntent().getStringExtra("DOB");
         String gmail = getIntent().getStringExtra("G-mail");
@@ -54,7 +54,7 @@ public class Refrence extends AppCompatActivity {
 
                 Intent intent = new Intent(Refrence.this,templatescreen.class);
                 intent.putExtra("name",name);
-                intent.putExtra("Father name",fathername);
+                intent.putExtra("fathername",fathername);
                 intent.putExtra("surname",surname);
                 intent.putExtra("DOB",dob);
                 intent.putExtra("G-mail",gmail);
