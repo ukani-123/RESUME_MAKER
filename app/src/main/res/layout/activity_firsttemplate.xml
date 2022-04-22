@@ -36,8 +36,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"/>
-
-
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:background="#978686"
+        android:gravity="center"
+        android:orientation="vertical"></LinearLayout>
 
 </LinearLayout>
