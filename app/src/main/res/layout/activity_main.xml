@@ -24,13 +24,10 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Name"
-            app:counterEnabled="true"
-            app:counterMaxLength="15"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/name"
-                android:maxLength="15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapSentences"/>
@@ -43,13 +40,10 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="FatherName"
-            app:counterEnabled="true"
-            app:counterMaxLength="15"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/fathername"
-                android:maxLength="15"
                 android:layout_width="match_parent"
                 android:inputType="textCapSentences"
                 android:layout_height="wrap_content"/>
@@ -62,13 +56,10 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="SurName"
-            app:counterEnabled="true"
-            app:counterMaxLength="15"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/surname"
-                android:maxLength="15"
                 android:inputType="textCapSentences"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -83,14 +74,11 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="DOB"
-            app:counterEnabled="true"
-            app:counterMaxLength="8"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/birthdate"
                 android:inputType="date"
-                android:maxLength="6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -101,8 +89,6 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="G-Mail"
-            app:counterEnabled="true"
-            app:counterMaxLength="25"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -119,15 +105,12 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Mobile No."
-            app:counterEnabled="true"
-            app:counterMaxLength="10"
             app:helperTextTextColor="#D30B0B"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mobilenumber"
                 android:inputType="number"
-                android:maxLength="10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -138,13 +121,10 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="gender"
-            app:counterEnabled="true"
-            app:counterMaxLength="6"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/gender"
-                android:maxLength="6"
                 android:inputType="textCapSentences"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -156,13 +136,10 @@
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Hobby"
-            app:counterEnabled="true"
-            app:counterMaxLength="15"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/hobby"
-                android:maxLength="15"
                 android:inputType="textCapSentences"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
