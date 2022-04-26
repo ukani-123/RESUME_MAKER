@@ -23,48 +23,18 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:hint="Name"
+            android:hint="Full Name"
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/name"
+                android:id="@+id/fulln"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapSentences"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:hint="FatherName"
-            app:hintTextColor="@color/black">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/fathername"
-                android:layout_width="match_parent"
-                android:inputType="textCapSentences"
-                android:layout_height="wrap_content"/>
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:hint="SurName"
-            app:hintTextColor="@color/black">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/surname"
-                android:inputType="textCapSentences"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-        </com.google.android.material.textfield.TextInputLayout>
 
 
 

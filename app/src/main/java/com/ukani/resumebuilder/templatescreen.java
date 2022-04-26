@@ -17,8 +17,6 @@ public class templatescreen extends AppCompatActivity {
         setContentView(R.layout.activity_templatescreen);
 
         String name = getIntent().getStringExtra("name");
-        String fn = getIntent().getStringExtra("fathername");
-        String surname = getIntent().getStringExtra("surname");
         String dob = getIntent().getStringExtra("DOB");
         String gmail = getIntent().getStringExtra("G-mail");
         String mobileNumber = getIntent().getStringExtra("mobile number");
@@ -50,8 +48,6 @@ public class templatescreen extends AppCompatActivity {
             public void onClick(View view) {
                 Intent  intent = new Intent(templatescreen.this,firsttemplate.class);
                 intent.putExtra("name",name);
-                intent.putExtra("father name",fn);
-                intent.putExtra("surname",surname);
                 intent.putExtra("Gender",gd);
                 intent.putExtra("DOB",dob);
                 intent.putExtra("G-mail",gmail);

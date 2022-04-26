@@ -8,181 +8,66 @@
     tools:context=".firsttemplate">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center"
-        android:background="#DF8282">
+        android:background="#354BC6">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/meee"
-            android:layout_gravity="center">
-        </de.hdodenhof.circleimageview.CircleImageView>
-
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/me">
+        </ImageView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:text="Name"
-            android:textStyle="bold"
-            android:textSize="25dp"
-            android:layout_marginTop="5dp"/>
-        <TextView
-            android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:text="Contact"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginTop="5dp"/>
-       <LinearLayout
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:orientation="horizontal">
-
-           <TextView
-               android:id="@+id/sirname"
-               android:textColor="#716D6D"
-               android:textStyle="bold"
-               android:textSize="18dp"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="5dp"/>
-           <TextView
-               android:id="@+id/FatherName"
-               android:textColor="#716D6D"
-               android:textStyle="bold"
-               android:textSize="18dp"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="5dp"/>
-
-       </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="205dp"
-        android:layout_height="match_parent"
-        android:background="#978686"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="DOB : "
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="2dp"/>
-        <TextView
-            android:id="@+id/dateofbirth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="2dp"/>
-        </LinearLayout>
+            android:layout_gravity="center"
+            android:textSize="20dp">
+        </TextView>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="G-Mail : "
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="2dp"/>
-        <TextView
-            android:id="@+id/Gmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="2dp"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="MobileNumber : "
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="2dp"/>
-        <TextView
-            android:id="@+id/mn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="2dp"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/call"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"/>
             <TextView
+                android:id="@+id/mon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gender : "
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="2dp"/>
-            <TextView
-                android:id="@+id/jati"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="2dp"/>
+                android:textColor="@color/white"
+                android:layout_marginLeft="9dp"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hobby : "
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="2dp"/>
-            <TextView
-                android:id="@+id/hobi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="2dp"/>
-        </LinearLayout>
-
-
-
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/email"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="5dp"/>
+                    <TextView
+                        android:id="@+id/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="9dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

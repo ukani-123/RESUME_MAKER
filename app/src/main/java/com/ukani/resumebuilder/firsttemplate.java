@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class firsttemplate extends AppCompatActivity {
 
-    TextView na,fathername,sirname,DOB,mail,mobile,jati,hobi;
+    TextView mob,mail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,8 +15,6 @@ public class firsttemplate extends AppCompatActivity {
         setContentView(R.layout.activity_firsttemplate);
 
         String name = getIntent().getStringExtra("name");
-        String surname = getIntent().getStringExtra("surname");
-        String fn = getIntent().getStringExtra("fathername");
         String dob = getIntent().getStringExtra("DOB");
         String gmail = getIntent().getStringExtra("G-mail");
         String mobileNumber = getIntent().getStringExtra("mobile number");
@@ -37,22 +35,11 @@ public class firsttemplate extends AppCompatActivity {
         String cn = getIntent().getStringExtra("Company Name");
         String wl = getIntent().getStringExtra("Web Link");
 
-        na = findViewById(R.id.name);
-        fathername = findViewById(R.id.fathername);
-        sirname = findViewById(R.id.sirname);
-        DOB = findViewById(R.id.dateofbirth);
-        mail = findViewById(R.id.Gmail);
-        mobile= findViewById(R.id.mn);
-        jati= findViewById(R.id.jati);
-        hobi= findViewById(R.id.hobi);
+        mob = findViewById(R.id.mon);
+        mail = findViewById(R.id.mail);
 
-        na.setText(name);
-        fathername.setText(fn);
-        sirname.setText(surname);
-        DOB.setText(dob);
+        mob.setText(mobileNumber);
         mail.setText(gmail);
-        mobile.setText(mobileNumber);
-        jati.setText(gd);
-        hobi.setText(hobby);
+
     }
 }

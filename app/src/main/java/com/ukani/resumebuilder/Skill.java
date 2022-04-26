@@ -20,8 +20,6 @@ public class Skill extends AppCompatActivity {
         setContentView(R.layout.activity_skill);
 
         String name = getIntent().getStringExtra("name");
-        String fn = getIntent().getStringExtra("fathername");
-        String surname = getIntent().getStringExtra("surname");
         String dob = getIntent().getStringExtra("DOB");
         String gmail = getIntent().getStringExtra("G-mail");
         String mobileNumber = getIntent().getStringExtra("mobile number");
@@ -51,8 +49,6 @@ public class Skill extends AppCompatActivity {
 
                 Intent intent = new Intent(Skill.this,Work.class);
                 intent.putExtra("name",name);
-                intent.putExtra("fathername",fn);
-                intent.putExtra("surname",surname);
                 intent.putExtra("DOB",dob);
                 intent.putExtra("G-mail",gmail);
                 intent.putExtra("mobile number",mobileNumber);
