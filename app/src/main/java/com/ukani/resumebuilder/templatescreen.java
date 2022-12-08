@@ -70,5 +70,86 @@ public class templatescreen extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Template2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent  intent = new Intent(templatescreen.this,firsttemplate.class);
+                intent.putExtra("name",name);
+                intent.putExtra("Gender",gd);
+                intent.putExtra("DOB",dob);
+                intent.putExtra("G-mail",gmail);
+                intent.putExtra("mobile number",mobileNumber);
+                intent.putExtra("hobby",hobby);
+                intent.putExtra("course",course);
+                intent.putExtra("school/collage",sc);
+                intent.putExtra("grade",grade);
+                intent.putExtra("Company Name",cn1);
+                intent.putExtra("Start Date",sd);
+                intent.putExtra("End Date",ed);
+                intent.putExtra("Primary Skill",ps);
+                intent.putExtra("Secondory Skill",ss);
+                intent.putExtra("third Skill",ts);
+                intent.putExtra("forth Skill",fs);
+                intent.putExtra("Github",gi);
+                intent.putExtra("Linked In",link);
+                intent.putExtra("Company Nmae",cn);
+                intent.putExtra("Web Link",wl);
+                startActivity(intent);
+            }
+        });
+        Template3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent  intent = new Intent(templatescreen.this,firsttemplate.class);
+                intent.putExtra("name",name);
+                intent.putExtra("Gender",gd);
+                intent.putExtra("DOB",dob);
+                intent.putExtra("G-mail",gmail);
+                intent.putExtra("mobile number",mobileNumber);
+                intent.putExtra("hobby",hobby);
+                intent.putExtra("course",course);
+                intent.putExtra("school/collage",sc);
+                intent.putExtra("grade",grade);
+                intent.putExtra("Company Name",cn1);
+                intent.putExtra("Start Date",sd);
+                intent.putExtra("End Date",ed);
+                intent.putExtra("Primary Skill",ps);
+                intent.putExtra("Secondory Skill",ss);
+                intent.putExtra("third Skill",ts);
+                intent.putExtra("forth Skill",fs);
+                intent.putExtra("Github",gi);
+                intent.putExtra("Linked In",link);
+                intent.putExtra("Company Nmae",cn);
+                intent.putExtra("Web Link",wl);
+                startActivity(intent);
+            }
+        });
+        Template4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent  intent = new Intent(templatescreen.this,firsttemplate.class);
+                intent.putExtra("name",name);
+                intent.putExtra("Gender",gd);
+                intent.putExtra("DOB",dob);
+                intent.putExtra("G-mail",gmail);
+                intent.putExtra("mobile number",mobileNumber);
+                intent.putExtra("hobby",hobby);
+                intent.putExtra("course",course);
+                intent.putExtra("school/collage",sc);
+                intent.putExtra("grade",grade);
+                intent.putExtra("Company Name",cn1);
+                intent.putExtra("Start Date",sd);
+                intent.putExtra("End Date",ed);
+                intent.putExtra("Primary Skill",ps);
+                intent.putExtra("Secondory Skill",ss);
+                intent.putExtra("third Skill",ts);
+                intent.putExtra("forth Skill",fs);
+                intent.putExtra("Github",gi);
+                intent.putExtra("Linked In",link);
+                intent.putExtra("Company Nmae",cn);
+                intent.putExtra("Web Link",wl);
+                startActivity(intent);
+            }
+        });
     }
 }

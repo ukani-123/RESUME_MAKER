@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class Education extends MainActivity {
+public class Education extends IMAGECHOOSE {
 
     TextInputEditText course,school,grade;
     Button next;

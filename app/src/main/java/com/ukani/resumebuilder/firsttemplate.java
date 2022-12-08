@@ -2,13 +2,17 @@ package com.ukani.resumebuilder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class firsttemplate extends AppCompatActivity {
 
     TextView mob,mail;
+    ImageView zimage;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,8 +39,10 @@ public class firsttemplate extends AppCompatActivity {
         String cn = getIntent().getStringExtra("Company Name");
         String wl = getIntent().getStringExtra("Web Link");
 
+
         mob = findViewById(R.id.mon);
         mail = findViewById(R.id.mail);
+        zimage = findViewById(R.id.photo);
 
         mob.setText(mobileNumber);
         mail.setText(gmail);
