@@ -1,8 +1,10 @@
 package com.ukani.resumebuilder;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,6 +13,8 @@ public class firsttemplate extends AppCompatActivity {
 
     TextView mob,mail;
     ImageView zimage;
+
+    private static final int IMG_PICK_CODE = 1000;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -47,5 +51,12 @@ public class firsttemplate extends AppCompatActivity {
         mob.setText(mobileNumber);
         mail.setText(gmail);
 
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK && requestCode == IMG_PICK_CODE){
+            zimage.setImageURI(data.getData());
+        }
     }
 }
